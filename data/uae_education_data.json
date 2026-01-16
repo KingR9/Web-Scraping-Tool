@@ -1,0 +1,2064 @@
+{
+    "metadata": {
+        "generated_at": "2026-01-16T11:37:55.112908Z",
+        "scraper_version": "v1.0.0",
+        "update_frequency": "Quarterly",
+        "region_focus": "United Arab Emirates",
+        "data_sources": {
+            "government_accreditation": "https://www.caa.ae/Pages/Institutes/All.aspx",
+            "course_catalogue": "https://www.bachelorsportal.com/search/universities/bachelor/united-arab-emirates",
+            "cost_of_living": "https://www.universityliving.com/blog/student-finances/cost-of-living-in-dubai/"
+        }
+    },
+    "country": {
+        "name": "United Arab Emirates",
+        "currency": "AED",
+        "cost_of_living": {
+            "source": "https://www.universityliving.com/blog/student-finances/cost-of-living-in-dubai/",
+            "scope": "Dubai (Primary student hub in UAE)",
+            "data_confidence": "MEDIUM",
+            "tables": [
+                [
+                    {
+                        "0": "Expenses",
+                        "1": "Cost (Average)"
+                    },
+                    {
+                        "0": "Average Tuition Fees (Public & Private Universities)",
+                        "1": "AED 25,000 \u2013 AED 75,000 / Year"
+                    },
+                    {
+                        "0": "Accommodation (Outside City Center)",
+                        "1": "AED 3,500 \u2013 AED 6,000 / Month"
+                    },
+                    {
+                        "0": "Transportation (Public Transport)",
+                        "1": "AED 350 \u2013 AED 500 / Month"
+                    },
+                    {
+                        "0": "Food & Dining",
+                        "1": "AED 500 \u2013 AED 1,200 / Month"
+                    },
+                    {
+                        "0": "Utilities & Internet",
+                        "1": "AED 400 \u2013 AED 700 / Month"
+                    }
+                ],
+                [
+                    {
+                        "0": "Degree Level",
+                        "1": "Tuition Fees (Annual)"
+                    },
+                    {
+                        "0": "Undergraduate",
+                        "1": "AED 45,000 \u2013 AED 75,000"
+                    },
+                    {
+                        "0": "Postgraduate (Master\u2019s/PhD)",
+                        "1": "AED 40,000 \u2013 AED 80,000"
+                    }
+                ],
+                [
+                    {
+                        "0": "Accommodation Type",
+                        "1": "Features",
+                        "2": "Monthly Rent (AED)"
+                    },
+                    {
+                        "0": "Student Housing (PBSA)",
+                        "1": "Private, furnished, close to campus, includes bills",
+                        "2": "AED 3,000 \u2013 AED 5,000"
+                    },
+                    {
+                        "0": "Private Apartments",
+                        "1": "Independent living, may exclude bills",
+                        "2": "AED 5,000 \u2013 AED 8,000"
+                    },
+                    {
+                        "0": "University Halls",
+                        "1": "On-campus, shared spaces",
+                        "2": "AED 4,000 \u2013 AED 10,000"
+                    }
+                ],
+                [
+                    {
+                        "0": "Food Type",
+                        "1": "Cost (AED)"
+                    },
+                    {
+                        "0": "Mid-range Restaurant Meal",
+                        "1": "AED 100 \u2013 AED 250"
+                    },
+                    {
+                        "0": "Fast Food Meal",
+                        "1": "AED 30 \u2013 AED 50"
+                    },
+                    {
+                        "0": "Street Food & Local Eateries",
+                        "1": "AED 10 \u2013 AED 30"
+                    },
+                    {
+                        "0": "Monthly Grocery Cost",
+                        "1": "AED 700 \u2013 AED 1,200"
+                    }
+                ],
+                [
+                    {
+                        "0": "Utility Type",
+                        "1": "Average Cost (Monthly) (AED)"
+                    },
+                    {
+                        "0": "Electricity, Water & Gas",
+                        "1": "AED 450 \u2013 AED 800"
+                    },
+                    {
+                        "0": "Internet & TV",
+                        "1": "AED 250 \u2013 AED 400"
+                    }
+                ],
+                [
+                    {
+                        "0": "Transport Type",
+                        "1": "Cost (AED)"
+                    },
+                    {
+                        "0": "Dubai Metro",
+                        "1": "AED 3 \u2013 AED 7 per ride"
+                    },
+                    {
+                        "0": "Buses & Trams",
+                        "1": "AED 3 \u2013 AED 6 per ride"
+                    },
+                    {
+                        "0": "Taxis",
+                        "1": "AED 12 \u2013 AED 50 per ride"
+                    },
+                    {
+                        "0": "Monthly Public Transport Pass",
+                        "1": "AED 300 \u2013 AED 500"
+                    }
+                ]
+            ]
+        }
+    },
+    "universities": [
+        {
+            "university_name": "ABU DHABI SCHOOL OF MANAGEMENT",
+            "normalized_name": "abu_dhabi_school_of_management",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ABU DHABI UNIVERSITY",
+            "normalized_name": "abu_dhabi_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ABU DHABI VOCATIONAL EDUCATION AND TRAINING INSTITUTE",
+            "normalized_name": "abu_dhabi_vocational_education_and_training_institute",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AJMAN UNIVERSITY",
+            "normalized_name": "ajman_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL AIN INTERNATIONAL AVIATION ACADEMY",
+            "normalized_name": "al_ain_international_aviation_academy",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL AIN UNIVERSITY (PREVIOUSLY, AL AIN UNIVERSITY OF SCIENCE & TECHNOLOGY)",
+            "normalized_name": "al_ain_university_previously_al_ain_university_of_science_technology",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL DAR UNIVERSITY COLLEGE (LICENSURE REVOKED)",
+            "normalized_name": "al_dar_university_college_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL FALAH UNIVERSITY (LICENSURE REVOKED)",
+            "normalized_name": "al_falah_university_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL GHURAIR UNIVERSITY (LICENSURE REVOKED)",
+            "normalized_name": "al_ghurair_university_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL HOSN UNIVERSITY (LICENSURE REVOKED)",
+            "normalized_name": "al_hosn_university_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL KHAWARIZMI INTERNATIONAL COLLEGE (LICENSURE REVOKED, MERGED WITH LIWA UNIVERSITY)",
+            "normalized_name": "al_khawarizmi_international_college_licensure_revoked_merged_with_liwa_university",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL QASIMIYA UNIVERSITY",
+            "normalized_name": "al_qasimiya_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL REEF INSTITUTE OF LOGISTICS AND APPLIED TECHNOLOGY",
+            "normalized_name": "al_reef_institute_of_logistics_and_applied_technology",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AL WATAN UNIVERSITY",
+            "normalized_name": "al_watan_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AMERICAN COLLEGE OF DUBAI (LICENSURE REVOKED)",
+            "normalized_name": "american_college_of_dubai_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AMERICAN UNIVERSITY IN DUBAI",
+            "normalized_name": "american_university_in_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AMERICAN UNIVERSITY IN THE EMIRATES",
+            "normalized_name": "american_university_in_the_emirates",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AMERICAN UNIVERSITY OF RAS AL KHAIMAH",
+            "normalized_name": "american_university_of_ras_al_khaimah",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AMERICAN UNIVERSITY OF SHARJAH",
+            "normalized_name": "american_university_of_sharjah",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "AMITY UNIVERSITY DUBAI",
+            "normalized_name": "amity_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ARAB ACADEMY FOR SCIENCE, TECHNOLOGY AND MARITIME TRANSPORT",
+            "normalized_name": "arab_academy_for_science_technology_and_maritime_transport",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "BATTERJEE MEDICAL COLLEGE - DUBAI",
+            "normalized_name": "batterjee_medical_college_dubai",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "BIRLA INSTITUTE OF TECHNOLOGY & SCIENCE, PILANI, DUBAI",
+            "normalized_name": "birla_institute_of_technology_science_pilani_dubai",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE PILANI (BITS PILANI) DUBAI CAMPUS",
+            "normalized_name": "birla_institute_of_technology_and_science_pilani_bits_pilani_dubai_campus",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "BOSTON UNIVERSITY INSTITUTE FOR DENTAL RESEARCH & EDUCATION",
+            "normalized_name": "boston_university_institute_for_dental_research_education",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "BRITISH UNIVERSITY IN DUBAI",
+            "normalized_name": "british_university_in_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "CANADIAN UNIVERSITY DUBAI",
+            "normalized_name": "canadian_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "CURTIN UNIVERSITY",
+            "normalized_name": "curtin_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DE MONTFORT UNIVERSITY",
+            "normalized_name": "de_montfort_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI AEROSPACE ENTERPRISE UNIVERSITY",
+            "normalized_name": "dubai_aerospace_enterprise_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI COLLEGE OF DENTAL MEDICINE",
+            "normalized_name": "dubai_college_of_dental_medicine",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI INSTITUTE OF DESIGN AND INNOVATION",
+            "normalized_name": "dubai_institute_of_design_and_innovation",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI MEDICAL COLLEGE FOR GIRLS",
+            "normalized_name": "dubai_medical_college_for_girls",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI MEDICAL UNIVERSITY",
+            "normalized_name": "dubai_medical_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI NATIONAL UNIVERSITY",
+            "normalized_name": "dubai_national_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI PHARMACY COLLEGE FOR GIRLS",
+            "normalized_name": "dubai_pharmacy_college_for_girls",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUBAI POLICE ACADEMY",
+            "normalized_name": "dubai_police_academy",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "DUKE UNIVERSITY, THE FUQUA SCHOOL OF BUSINESS",
+            "normalized_name": "duke_university_the_fuqua_school_of_business",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EMAAR UNIVERSITY OF THE ARTS",
+            "normalized_name": "emaar_university_of_the_arts",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EMIRATES ACADEMY OF HOSPITALITY MANAGEMENT",
+            "normalized_name": "emirates_academy_of_hospitality_management",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EMIRATES AVIATION UNIVERSITY",
+            "normalized_name": "emirates_aviation_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EMIRATES COLLEGE FOR ADVANCED EDUCATION",
+            "normalized_name": "emirates_college_for_advanced_education",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EMIRATES COLLEGE FOR MANAGEMENT AND INFORMATION TECHNOLOGY (LICENSURE REVOKED)",
+            "normalized_name": "emirates_college_for_management_and_information_technology_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EMIRATES INSTITUTE FOR BANKING AND FINANCIAL STUDIES",
+            "normalized_name": "emirates_institute_for_banking_and_financial_studies",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ESCP BUSINESS SCHOOL - DUBAI CAMPUS",
+            "normalized_name": "escp_business_school_dubai_campus",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ESMOD FRENCH FASHION INSTITUTE",
+            "normalized_name": "esmod_french_fashion_institute",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EUROPEAN INTERNATIONAL COLLEGE (LICENSURE REVOKED)",
+            "normalized_name": "european_international_college_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EUROPEAN UNIVERSITY COLLEGE (LICENSURE REVOKED)",
+            "normalized_name": "european_university_college_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "EUROPEAN UNIVERSITY RAK CAMPUS",
+            "normalized_name": "european_university_rak_campus",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "FATIMA COLLEGE OF HEALTH SCIENCES",
+            "normalized_name": "fatima_college_of_health_sciences",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "GEORGE MASON UNIVERSITY",
+            "normalized_name": "george_mason_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "GEORGETOWN UNIVERSITY DUBAI",
+            "normalized_name": "georgetown_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "GLOBAL STUDIES UNIVERSITY",
+            "normalized_name": "global_studies_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "GULF ACADEMY FOR STRATEGIC AND SECURITY STUDIES",
+            "normalized_name": "gulf_academy_for_strategic_and_security_studies",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "GULF MEDICAL UNIVERSITY",
+            "normalized_name": "gulf_medical_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HAMDAN BIN MOHAMMED SMART UNIVERSITY",
+            "normalized_name": "hamdan_bin_mohammed_smart_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HAMDAN BIN ZAYED COLLEGE",
+            "normalized_name": "hamdan_bin_zayed_college",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HERIOT-WATT UNIVERSITY, DUBAI",
+            "normalized_name": "heriot_watt_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HIGHER COLLEGES OF TECHNOLOGY",
+            "normalized_name": "higher_colleges_of_technology",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HORIZON INTERNATIONAL FLIGHT ACADEMY, AL AIN",
+            "normalized_name": "horizon_international_flight_academy_al_ain",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HORIZON UNIVERSITY COLLEGE",
+            "normalized_name": "horizon_university_college",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "HULT INTERNATIONAL BUSINESS SCHOOL",
+            "normalized_name": "hult_international_business_school",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "IMAM MALIK COLLEGE FOR ISLAMIC SHARIA AND LAW",
+            "normalized_name": "imam_malik_college_for_islamic_sharia_and_law",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "INDIAN INSTITUTE OF MANAGEMENT AHMEDABAD",
+            "normalized_name": "indian_institute_of_management_ahmedabad",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "INSEAD- THE BUSINESS SCHOOL FOR THE WORLD, ABU DHABI",
+            "normalized_name": "insead_the_business_school_for_the_world_abu_dhabi",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "INSTITUTE OF MANAGEMENT TECHNOLOGY-DUBAI",
+            "normalized_name": "institute_of_management_technology_dubai",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "INTERNATIONAL AMERICAN UNIVERSITY - RAS AL KHAIMAH",
+            "normalized_name": "international_american_university_ras_al_khaimah",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "INTERNATIONAL HORIZONS COLLEGE",
+            "normalized_name": "international_horizons_college",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ITTIHAD UNIVERSITY (LICENSURE REVOKED)",
+            "normalized_name": "ittihad_university_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "JOINT COMMAND AND STAFF COLLEGE - ABU DHABI",
+            "normalized_name": "joint_command_and_staff_college_abu_dhabi",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "JUMEIRA UNIVERSITY",
+            "normalized_name": "jumeira_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "KHALIFA BIN ZAYED AIR COLLEGE",
+            "normalized_name": "khalifa_bin_zayed_air_college",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "KHALIFA UNIVERSITY OF SCIENCE, TECHNOLOGY AND RESEARCH",
+            "normalized_name": "khalifa_university_of_science_technology_and_research",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "LONDON BUSINESS SCHOOL, DUBAI CAMPUS",
+            "normalized_name": "london_business_school_dubai_campus",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "LUISS UNIVERSITY DUBAI",
+            "normalized_name": "luiss_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MAKTOUM BIN HAMDAN DENTAL UNIVERSITY COLLEGE (LICENSURE REVOKED)",
+            "normalized_name": "maktoum_bin_hamdan_dental_university_college_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MANIPAL ACADEMY OF HIGHER EDUCATION",
+            "normalized_name": "manipal_academy_of_higher_education",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MASDAR INSTITUTE OF SCIENCE AND TECHNOLOGY",
+            "normalized_name": "masdar_institute_of_science_and_technology",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MENA COLLEGE OF MANAGEMENT (LICENSURE REVOKED)",
+            "normalized_name": "mena_college_of_management_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MICHIGAN STATE UNIVERSITY",
+            "normalized_name": "michigan_state_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MIDDLESEX UNIVERSITY DUBAI",
+            "normalized_name": "middlesex_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MODUL UNIVERSITY - DUBAI (LICENSURE REVOKED)",
+            "normalized_name": "modul_university_dubai_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MOHAMED BIN ZAYED UNIVERSITY OF ARTIFICIAL INTELLIGENCE",
+            "normalized_name": "mohamed_bin_zayed_university_of_artificial_intelligence",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MOHAMMED BIN RASHID SCHOOL OF GOVERNMENT",
+            "normalized_name": "mohammed_bin_rashid_school_of_government",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MOHAMMED BIN RASHID UNIVERSITY OF MEDICINE AND HEALTH SCIENCES",
+            "normalized_name": "mohammed_bin_rashid_university_of_medicine_and_health_sciences",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "MURDOCH UNIVERSITY, DUBAI",
+            "normalized_name": "murdoch_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "NATIONAL DEFENSE COLLEGE",
+            "normalized_name": "national_defense_college",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "NEOHORIZON SCHOOL OF BUSINESS",
+            "normalized_name": "neohorizon_school_of_business",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "NEW YORK INSTITUTE OF TECHNOLOGY",
+            "normalized_name": "new_york_institute_of_technology",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "NEW YORK UNIVERSITY, ABU DHABI",
+            "normalized_name": "new_york_university_abu_dhabi",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "OCEAN UNIVERSITY",
+            "normalized_name": "ocean_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "PETROLEUM INSTITUTE",
+            "normalized_name": "petroleum_institute",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "PLEKHANOV RUSSIAN UNIVERSITY OF ECONOMICS -DUBAI",
+            "normalized_name": "plekhanov_russian_university_of_economics_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "POLICE COLLEGE, ABU DHABI",
+            "normalized_name": "police_college_abu_dhabi",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "POLICE SCIENCES ACADEMY- SHARJAH",
+            "normalized_name": "police_sciences_academy_sharjah",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "RABDAN ACADEMY",
+            "normalized_name": "rabdan_academy",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "RAS AL KHAIMAH MEDICAL AND HEALTH SCIENCES UNIVERSITY",
+            "normalized_name": "ras_al_khaimah_medical_and_health_sciences_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "RASHID BIN SAEED AL MAKTOUM NAVAL COLLEGE \u200e",
+            "normalized_name": "rashid_bin_saeed_al_maktoum_naval_college",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ROCHESTER INSTITUTE OF TECHNOLOGY- DUBAI",
+            "normalized_name": "rochester_institute_of_technology_dubai",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ROYAL COLLEGE OF SURGEONS IN IRELAND- DUBAI (LICENSURE REVOKED)",
+            "normalized_name": "royal_college_of_surgeons_in_ireland_dubai_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ROYAL UNIVERSITY COLLEGE OF ALLIED HEALTH SCIENCES AND MANAGEMENT",
+            "normalized_name": "royal_university_college_of_allied_health_sciences_and_management",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "RUSSIAN UNIVERSITY",
+            "normalized_name": "russian_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "S P JAIN SCHOOL OF GLOBAL MANAGEMENT",
+            "normalized_name": "s_p_jain_school_of_global_management",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SAE UNIVERSITY COLLEGE",
+            "normalized_name": "sae_university_college",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SAINT JOSEPH UNIVERSITY DUBAI",
+            "normalized_name": "saint_joseph_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SHARJAH EDUCATION ACADEMY",
+            "normalized_name": "sharjah_education_academy",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SHARJAH INSTITUTE OF TECHNOLOGY",
+            "normalized_name": "sharjah_institute_of_technology",
+            "institution_type": "Institute",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SHARJAH MARITIME ACADEMY",
+            "normalized_name": "sharjah_maritime_academy",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SHARJAH PERFORMING ARTS ACADEMY",
+            "normalized_name": "sharjah_performing_arts_academy",
+            "institution_type": "Academy",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SKEMA BUSINESS SCHOOL",
+            "normalized_name": "skema_business_school",
+            "institution_type": "School",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SKYLINE UNIVERSITY COLLEGE (LICENSURE REVOKED)",
+            "normalized_name": "skyline_university_college_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SORBONNE UNIVERSITY, ABU DHABI (PREVIOUSLY, PARIS SORBONNE UNIVERSITY, ABU DHABI)",
+            "normalized_name": "sorbonne_university_abu_dhabi_previously_paris_sorbonne_university_abu_dhabi",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SYMBIOSIS INTERNATIONAL UNIVERSITY - DUBAI",
+            "normalized_name": "symbiosis_international_university_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "SYSCOMS COLLEGE (LICENSURE REVOKED)",
+            "normalized_name": "syscoms_college_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "THE COLLEGE OF FASHION AND DESIGN (LICENSURE REVOKED)",
+            "normalized_name": "the_college_of_fashion_and_design_licensure_revoked",
+            "institution_type": "College",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "THE UNIVERSITY OF MANCHESTER - DUBAI",
+            "normalized_name": "the_university_of_manchester_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "TUFTS UNIVERSITY FRIEDMAN SCHOOL- RAK",
+            "normalized_name": "tufts_university_friedman_school_rak",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNITED ARAB EMIRATES UNIVERSITY",
+            "normalized_name": "united_arab_emirates_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY COLLEGE OF MOTHER AND FAMILY SCIENCES (LICENSURE REVOKED)",
+            "normalized_name": "university_college_of_mother_and_family_sciences_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF AL DHAID",
+            "normalized_name": "university_of_al_dhaid",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF BALAMAND IN DUBAI (LICENSURE REVOKED)",
+            "normalized_name": "university_of_balamand_in_dubai_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF BIRMINGHAM DUBAI",
+            "normalized_name": "university_of_birmingham_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF BRADFORD",
+            "normalized_name": "university_of_bradford",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF DUBAI",
+            "normalized_name": "university_of_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF JAZEERA (LICENSURE REVOKED)",
+            "normalized_name": "university_of_jazeera_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF KALBA",
+            "normalized_name": "university_of_kalba",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF KHORFAKKAN",
+            "normalized_name": "university_of_khorfakkan",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF PARIS 2 PANTHEON-ASSAS, DUBAI",
+            "normalized_name": "university_of_paris_2_pantheon_assas_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF SCIENCE AND TECHNOLOGY OF FUJAIRAH (LICENSURE REVOKED)",
+            "normalized_name": "university_of_science_and_technology_of_fujairah_licensure_revoked",
+            "institution_type": "University",
+            "institution_status": "REVOKED",
+            "is_accredited_caa": false,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF SHARJAH",
+            "normalized_name": "university_of_sharjah",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF SOUTH WALES DUBAI",
+            "normalized_name": "university_of_south_wales_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF STRATHCLYDE BUSINESS SCHOOL- UAE",
+            "normalized_name": "university_of_strathclyde_business_school_uae",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF THE ARTS SHARJAH",
+            "normalized_name": "university_of_the_arts_sharjah",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "UNIVERSITY OF WOLLONGONG IN DUBAI",
+            "normalized_name": "university_of_wollongong_in_dubai",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "WOMENS COLLEGE, SHARJAH",
+            "normalized_name": "womens_college_sharjah",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ZAYED II MILITARY COLLEGE",
+            "normalized_name": "zayed_ii_military_college",
+            "institution_type": "College",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        },
+        {
+            "university_name": "ZAYED UNIVERSITY",
+            "normalized_name": "zayed_university",
+            "institution_type": "University",
+            "institution_status": "ACTIVE",
+            "is_accredited_caa": true,
+            "data_confidence": "HIGH",
+            "confidence_reason": "Verified against official CAA accreditation list",
+            "source_trace": {
+                "caa_listed": true,
+                "bachelorsportal_listed": false
+            },
+            "courses": []
+        }
+    ]
+}
