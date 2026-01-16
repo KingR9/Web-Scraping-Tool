@@ -1,4 +1,4 @@
-# GradPilots — UAE Education Intelligence Scraper
+# UAE Education Intelligence Scraper
 
 ## Overview
 This repository contains a **production-oriented web scraping pipeline** designed to collect, normalize, and structure authoritative university and education data for the **United Arab Emirates (UAE)**.
